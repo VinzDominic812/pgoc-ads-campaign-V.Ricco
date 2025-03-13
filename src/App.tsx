@@ -293,7 +293,7 @@ const App = () => {
   
       try {
         const response = await fetch(
-          "http://localhost:5095/api/v1/campaign/create-campaigns",
+          "https://pgoccampaign.share.zrok.io/api/v1/campaign/create-campaigns",
           {
             method: "POST",
             headers: {
