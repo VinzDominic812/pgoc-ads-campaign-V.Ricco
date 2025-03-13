@@ -107,7 +107,7 @@ const App = () => {
   
   const verifyAdAccounts = async (campaignsData: any[]) => {
     try {
-      const response = await fetch("http://https://pgoccampaign.share.zrok.io/api/v1/verify-ads-account/verify", {
+      const response = await fetch("https://pgoccampaign.share.zrok.io/api/v1/verify-ads-account/verify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
